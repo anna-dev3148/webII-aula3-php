@@ -1,6 +1,6 @@
 <?php
 
- $transporte = trim(mb_strtolower($_GET['meio']));
+ $transporte = trim(strtolower($_GET['meio']));
 
  if($transporte == "carro"){
     echo '<img src="https://pixabay.com/pt/images/download/futuremoon-cars-8891625_1920.jpg" alt="carro">';
